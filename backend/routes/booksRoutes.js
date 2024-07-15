@@ -81,7 +81,7 @@ router.put('/:id', async (req, res) => {
             return res.status(500).send({ message: "Book not found" })
         }
 
-        return res.status(400).send({ message: "Book updated" })
+        return res.status(200).send({ message: "Book updated" })
     } catch (error) {
         console.log(error)
         res.status(500).send({ message: error.message })

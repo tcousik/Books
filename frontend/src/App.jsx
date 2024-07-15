@@ -2,8 +2,8 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import CreateBook from './pages/CreateBook'
-import ReadBook from './pages/ReadBook'
-import UpdateBook from './pages/UpdateBook'
+import ShowBook from './pages/ShowBook'
+import EditBook from './pages/EditBook'
 import DeleteBook from './pages/DeleteBook'
 
 const App = () => {
@@ -11,8 +11,8 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/books/create' element={<CreateBook />} />
-      <Route path='/books/details/:id' element={<ReadBook />} />
-      <Route path='/books/update/:id' element={<UpdateBook />} />
+      <Route path='/books/details/:id' element={<ShowBook />} />
+      <Route path='/books/edit/:id' element={<EditBook />} />
       <Route path='/books/delete/:id' element={<DeleteBook />} />
     </Routes>
   )
