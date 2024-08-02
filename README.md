@@ -20,9 +20,13 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using the
    ```
 3. Open two terminals and navigate to the backend and frontend folders
       ```sh
-   cd frontend and cd backend
+   cd frontend 
    ```
-4. Run the program in localhost
+      and
+      ```sh
+   cd backend
+   ```
+5. Run the program in localhost
       ```sh
    npm run dev
    ```
