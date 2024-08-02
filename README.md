@@ -5,3 +5,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using the
 ### Built With
 
 * [![React][React.js]][React-url]
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
